@@ -1,0 +1,73 @@
+#searchbycat {
+    position: absolute;
+    top: 15.9%;
+    left: 82%;
+  }
+  .viewmoar {
+    border: none;
+    width: fit-content;
+    color: rgb(54, 39, 255);
+    background-color: #fff;
+  }
+  .getedimg {
+    width: 50px;
+    border-radius: 50%;
+  }
+  .updetfrm {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-items: center;
+    /* border-bottom: 1px gray solid; */
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .updetfrm {
+    position:absolute;
+    top: -0%;
+    left: 60%;
+  }
+  .updetfrm::after{
+    position: static;
+  }
+  
+  .fontGal.handlee-regular {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .profileimage {
+    width: 50px;
+  }
+  .containers {
+      width: 100%;
+      height: 500px;
+      border: 1px solid black;
+      overflow: auto scroll;
+     
+  }
+  .categoryupd{
+    width: 100%;
+    height: 800px;
+    border: 1px solid black;
+    overflow: auto scroll;
+  }
+  #arowup{
+  
+  animation: bounce 1s ease-in-out infinite;
+  transform: matrix3d(2);
+  }
+  @keyframes bounce {
+    40%{
+      transform : scale(0.4);
+    }
+    60%{
+      transform: scale(0.8);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+  .discription{
+    overflow: hidden;
+  }

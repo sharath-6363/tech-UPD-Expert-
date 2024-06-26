@@ -1,0 +1,26 @@
+#Admin-container {
+  background-color: rgb(0, 0, 0);
+  height: 55px;
+  text-align: center;
+}
+/* #Admin-Ul {
+  background: #79261d;
+  text-align: center;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+
+.nav-link{
+  font-family: 'Quattrocento', serif;
+}
+
+.navmine{
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  top: 0;background-color: red;
+  height: 60px;
+
+}

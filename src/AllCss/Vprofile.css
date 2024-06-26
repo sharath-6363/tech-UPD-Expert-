@@ -1,0 +1,11 @@
+
+.profileimg{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
